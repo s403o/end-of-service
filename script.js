@@ -5,7 +5,7 @@ const $ = document.querySelector.bind(document);
    *   month :
    *   0 jan, 1 feb, 2 march, 3 apr
    */
-  const END_DATE = new Date(2022, 12);
+  const END_DATE = new Date(2022, 11);
 
   if (isItOver(END_DATE)) return showEndParagraph();
 
